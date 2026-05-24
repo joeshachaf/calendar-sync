@@ -56,6 +56,24 @@ The project expects a Google Sheet with these tabs:
 | Name | ID | Display Name |
 |---|---|---|
 
+### Template sheet
+
+A sanitized Google Sheets template is available here:
+
+[Template - Calendar Sync Config](https://docs.google.com/spreadsheets/d/1aZfAvwO5Va7r0BOhZYjJEhX-2lhocIkROjNP4JzJkTs)
+
+Make a copy before using it:
+
+**File → Make a copy**
+
+The template contains three tabs:
+
+- `Calendars` — calendar inventory and copy/anonymize settings
+- `Source` — source-to-target sync rules and policies
+- `Targets` — target calendar definitions
+
+Do not add real calendar IDs, private event names, or personal data to a public copy of the sheet.
+
 ## Security and privacy notes
 
 Do not commit real calendar IDs, personal email addresses, event titles, event descriptions, spreadsheet IDs, script deployment URLs, API keys, OAuth secrets, or logs containing private calendar data.
